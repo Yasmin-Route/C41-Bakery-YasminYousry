@@ -1,0 +1,326 @@
+/* Global */
+*{
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Alegreya', serif; */
+    font-family: 'Alegreya Sans', sans-serif;
+    letter-spacing: 0;
+}
+.clr{
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: #e0dcd2;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+h2{
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #303030;
+}
+p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    color: #686868;
+    margin: 25px 0px;
+}
+/* Begin Home */
+#home{
+    height: 135vh;
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: 100% 100%;
+}
+#container{
+    height: 135vh;
+    background-color: #413f3d29;
+}
+/* Navbar */
+#nav{
+    background-color: transparent;
+    padding-top: 20px;
+}
+
+#logo{
+    display: inline-block;
+    margin-right: 430px;
+    margin-left: 60px;
+}
+#logo img{
+    width: 180px;
+}
+
+#navbar{
+    display: inline-block;
+    vertical-align:10px;
+}
+#navbar a{
+    font-family:'Alegreya', serif;
+    font-size: 18px;
+    color: #e0dcd2;
+}
+#navbar li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+/* Inner Home */
+#inner-home{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.92);
+    margin-top: 32vh;
+}
+#inner-home span{
+    font-size: 22px;
+    line-height: 41px;
+}
+#inner-home h1{
+    font-family: 'Alegreya', serif;
+    font-size: 76px;
+    font-weight: 400;
+    line-height: 91px;
+    color: #fff;
+}
+#inner-home p{
+    color: rgba(255, 255, 255, 0.92);
+    font-size: 24px;
+    line-height: 45px;
+    width: 700px;
+    margin:20px auto;
+    margin-bottom: 40px;
+}
+.btn{
+    background-color: #8e7754;
+    color: #fff;
+    padding: 15px 28px;
+    border: 2px solid transparent;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.contact-btn{
+    background-color: transparent;
+    border: 2px solid white;
+}
+#scroll-btn{
+    text-align: center;
+    margin-top: 100px;
+}
+.scroll{
+    display: inline-block;
+    border: 2px solid rgba(255,255,255,0.7);
+    width: 32px;
+    height: 50px;
+    border-radius: 24px;
+}
+#scroll-btn div{
+    width: 8px;
+    height: 8px;
+    background-color: rgba(255, 255, 255, 0.482);
+    display: inline-block;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+/* End Home */
+
+/* Begin About */
+#about, #location, #offer, #contact{
+    padding: 80px;
+    padding-left: 55px;
+    padding-right: 25px;
+}
+.about-img, .map {
+    display: inline-block;
+    width: 45%;   
+    margin-right: 50px;
+}
+.about-info{
+    padding: 15px;
+    display: inline-block;
+    width: 46%;
+    vertical-align: top;
+}
+.about-list li, .contact-details li, .special li, .hours li, .detail li, .footer-two li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+.about-info span, .contact-details span, .special span, .hours span, .detail span{
+    display: inline-block;
+    vertical-align: top;    
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 17px;
+    line-height: 32px;
+    color: #686868;
+}
+.about-list img, .contact-details img, .footer-two li img{
+    width: 44px;
+    height: 44px;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 100%;
+}
+/* End About */
+
+/* Begin Location */
+#location, #contact{
+    background-color: #f8f8f8;
+    padding-right: 10px;
+}
+.location-info, .contact-info{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    margin-right: 70px;
+    margin-top: 50px;
+}
+.location-img{
+    display: inline-block;
+    width: 45%;   
+}
+/* End Location */
+
+/* Begin Offer */
+#offer{
+    text-align: center;
+}
+.offer-head{
+    margin-bottom: 50px;
+}
+.offer-head p{
+    color: #888888;
+}
+.offers{
+    width: 30%;
+    float: left;
+    margin-right: 40px;
+}
+.offer-three{
+    margin-right: 0;
+}
+.offers h3{
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #303030;
+    margin: 20px;
+}
+/* End Offer */
+
+/* Begin Contact */
+.contact-info{
+    margin-top: 20px;
+    margin-right: 60px;
+}
+.contact-details span{
+    margin-left: 15px;
+    margin-top: 3px;
+}
+.contact-details img{
+    background-color: #8E7754;
+    width: 36px;
+    height: 36px;
+}
+iframe{
+    display: inline-block;
+    width: 100%;
+    height: 500px;
+}
+/* End Contact */
+/* Begin Footer */
+.footer-one{
+    background-color: #403D38;
+    padding: 50px 20px;
+    color: #fff;
+}
+.footer-float{
+    float: left;
+    padding-left: 30px;
+}
+.about-us{
+    width: 22%;
+}
+.special{
+    width: 22%;
+}
+.hours{
+    width: 20%;
+}
+.detail{
+    background: url(images/contact-details-map.png) no-repeat;
+    background-position:100% 65%;
+    background-size: 90%;
+}
+#footer h4{
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+.special li, .hours li, .detail li{
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    padding-bottom: 7px;
+    margin-bottom: 7px;
+}
+.special li:last-child, .hours li:last-child, .detail li:last-child{
+    border: none;
+}
+.special img, .hours img{
+    width: 16px;
+    height: 16px;
+    border: transparent;
+    margin-top: 7px;
+}
+
+.about-us p, .special span, .hours span, .detail span{
+    margin-top: 0px;
+    font-size: 16px;
+    color: #969696;
+    margin-left: 0px;
+}
+.detail img{
+    width: 30px;
+    height: 32px;
+    border: transparent;
+}
+
+.footer-two{
+    background-color: #353330;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.footer-img{
+    margin-top: 30px;
+    height: 18vh;
+}
+.footer-img img{
+    width: 30%;
+    height: 90%;
+}
+.footer-two p{
+    font-size: 15px;
+    color: #777;
+    margin: 0;
+}
+.footer-two li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.footer-two li img{
+    background-color: #514E49;
+    width: 40px;
+    height: 40px;
+}
+/* End Footer */
